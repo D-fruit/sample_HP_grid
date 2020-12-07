@@ -141,7 +141,8 @@ input, select {
   font-style: italic;
   position: relative;
   top: 280px;
-  left: 80px;
+  left: 10%;
+  margin-right: 15vw;
 }
 .news_block {
   height: 50px;
@@ -194,7 +195,7 @@ time {
 .mission_paragraph {
   z-index: 1;
   position: relative;
-  left: 100px;
+  left: 10%;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -394,6 +395,10 @@ footer {
 
 @media (max-width: 768px) {
   
+  html {
+    font-size: 80%;
+  }
+
   #hamburger {
     width: 40px;
     height: 40px;
@@ -429,5 +434,22 @@ footer {
   
   .site_nav {
     display: none; /* デスクトップのナビを消す */
+  }
+
+
+  .news_block {
+    width: 100vw;
+  }
+  .news_block h2 {
+    width: 20vw;
+  }
+  .news_title {
+    width: 80vw;
+  }
+
+  #mission_img {
+    width: 62.57vw;
+    height: auto;
+    top: calc(1020px - 41.61vw);
   }
 }
