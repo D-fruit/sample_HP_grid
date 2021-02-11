@@ -1,1 +1,0 @@
-COACHTECH 演習課題用のLPです
